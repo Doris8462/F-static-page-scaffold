@@ -2,6 +2,8 @@ body,
 html {
   margin: 0;
   padding: 0;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
 }
 
 body {
@@ -18,10 +20,38 @@ ul {
   margin: 0;
   padding: 0;
 }
-header{
- 
+header {
   background-color: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 12%;
 }
-main{
+.logoGroup {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+.register-button {
+  background-color: #42b72a;
+  padding: 3px;
+  margin-left: 6px;
+  border-radius: 2px;
+}
+.arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+}
+main {
   background-color: #e9ebee;
+  padding: 0 12%;
 }
