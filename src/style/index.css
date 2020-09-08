@@ -47,7 +47,7 @@ header {
   display: inline-block;
   width: 0;
   height: 0;
-  margin-left:5px;
+  margin-left: 5px;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 5px solid white;
@@ -56,24 +56,32 @@ main {
   background-color: #e9ebee;
   padding: 15px 12% 60px;
 }
-.mainUl{
+.mainUl {
   display: flex;
-  justify-content:space-between ;
+  justify-content: space-between;
   margin-top: 50px;
-  min-width:600px;
+  min-width: 600px;
 }
-.mainUl li{
-  width:49%;
+.mainUl li {
+  width: 49%;
   background-color: white;
   text-align: center;
-  padding:0 18px 30px;
+  padding: 0 18px 30px;
 }
-.mainUl figcaption{
+img {
+  width: 50%;
+}
+.mainUl figcaption {
   font-weight: bold;
 }
-.mainUl p{
+.mainUl p {
   opacity: 0.6;
 }
-.mainUl button{
+.mainUl button {
   margin-top: 22%;
+}
+@media screen and (max-width: 1080px) {
+  p {
+    font-size: 14px;
+  }
 }
